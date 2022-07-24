@@ -94,7 +94,7 @@ def get_dataset(options):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--num-epoch', type=int, default=30,
+    parser.add_argument('--num-epoch', type=int, default=35,
                             help='number of training epochs')
     parser.add_argument('--save-epoch', type=int, default=1,
                             help='frequency of model saving')

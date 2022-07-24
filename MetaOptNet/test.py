@@ -154,3 +154,5 @@ if __name__ == '__main__':
         if i % 50 == 0:
             print('Episode [{}/{}]:\t\t\tAccuracy: {:.2f} ± {:.2f} % ({:.2f} %)'\
                   .format(i, opt.episode, avg, ci95, acc))
+            log(log_file_path,str('Episode [{}/{}]:\t\t\tAccuracy: {:.2f} ± {:.2f} % ({:.2f} %)'\
+                  .format(i, opt.episode, avg, ci95, acc)))
