@@ -94,9 +94,9 @@ def get_dataset(options):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--num-epoch', type=int, default=60,
+    parser.add_argument('--num-epoch', type=int, default=30,
                             help='number of training epochs')
-    parser.add_argument('--save-epoch', type=int, default=10,
+    parser.add_argument('--save-epoch', type=int, default=1,
                             help='frequency of model saving')
     parser.add_argument('--train-shot', type=int, default=15,
                             help='number of support examples per training class')
@@ -167,7 +167,7 @@ if __name__ == '__main__':
                                  {'params': cls_head.parameters()}], lr=0.1, momentum=0.9, \
                                           weight_decay=5e-4, nesterov=True)
     
-    lambda_epoch = lambda e: 1.0 if e < 20 else (0.06 if e < 40 else 0.012 if e < 50 else (0.0024))
+    lambda_epoch = lambda e: 1.0 if e < 10 else (0.06 if e < 20 else 0.012 if e < 25 else (0.0024))
     lr_scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda_epoch, last_epoch=-1)
 
     max_val_acc = 0.0
