@@ -315,7 +315,7 @@ def ProtoNetHead(query, support, support_labels, n_way, n_shot, normalize=True):
 
     return logits
 
-def MetaOptNetHead_SVM_CS(query, support, support_labels, n_way, n_shot, C_reg=0.1, double_precision=False, maxIter=15):
+def MetaOptNetHead_SVM_CS(query, support, support_labels, n_way, n_shot, C_reg=0.1, double_precision=False, maxIter=3):
     """
     Fits the support set with multi-class SVM and 
     returns the classification score on the query set.
