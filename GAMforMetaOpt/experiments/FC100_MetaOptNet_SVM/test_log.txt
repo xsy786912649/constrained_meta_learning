@@ -1,0 +1,91 @@
+{'gpu': '0', 'load': './experiments/FC100_MetaOptNet_SVM', 'episode': 1000, 'way': 5, 'shot': 5, 'query': 15, 'network': 'ResNet', 'head': 'SVM', 'dataset': 'FC100'}
+/epoch_1.pth
+Episode [500/1000]:			Accuracy: 49.01 ± 0.81 % (45.33 %)
+Episode [1000/1000]:			Accuracy: 49.06 ± 0.56 % (42.67 %)
+/epoch_2.pth
+Episode [500/1000]:			Accuracy: 49.38 ± 0.80 % (49.33 %)
+Episode [1000/1000]:			Accuracy: 49.55 ± 0.56 % (48.00 %)
+/epoch_3.pth
+Episode [500/1000]:			Accuracy: 50.71 ± 0.79 % (49.33 %)
+Episode [1000/1000]:			Accuracy: 50.86 ± 0.55 % (41.33 %)
+/epoch_4.pth
+Episode [500/1000]:			Accuracy: 51.71 ± 0.77 % (50.67 %)
+Episode [1000/1000]:			Accuracy: 51.63 ± 0.56 % (42.67 %)
+/epoch_5.pth
+Episode [500/1000]:			Accuracy: 53.05 ± 0.78 % (49.33 %)
+Episode [1000/1000]:			Accuracy: 52.91 ± 0.55 % (46.67 %)
+/epoch_6.pth
+Episode [500/1000]:			Accuracy: 53.42 ± 0.81 % (57.33 %)
+Episode [1000/1000]:			Accuracy: 53.29 ± 0.58 % (49.33 %)
+/epoch_7.pth
+Episode [500/1000]:			Accuracy: 52.58 ± 0.81 % (48.00 %)
+Episode [1000/1000]:			Accuracy: 52.50 ± 0.55 % (42.67 %)
+/epoch_8.pth
+Episode [500/1000]:			Accuracy: 52.38 ± 0.79 % (50.67 %)
+Episode [1000/1000]:			Accuracy: 52.70 ± 0.56 % (44.00 %)
+/epoch_9.pth
+Episode [500/1000]:			Accuracy: 52.79 ± 0.80 % (46.67 %)
+Episode [1000/1000]:			Accuracy: 52.97 ± 0.55 % (44.00 %)
+/epoch_10.pth
+Episode [500/1000]:			Accuracy: 53.31 ± 0.78 % (50.67 %)
+Episode [1000/1000]:			Accuracy: 53.14 ± 0.56 % (45.33 %)
+/epoch_11.pth
+Episode [500/1000]:			Accuracy: 54.47 ± 0.80 % (49.33 %)
+Episode [1000/1000]:			Accuracy: 54.33 ± 0.54 % (50.67 %)
+/epoch_12.pth
+Episode [500/1000]:			Accuracy: 55.12 ± 0.80 % (48.00 %)
+Episode [1000/1000]:			Accuracy: 54.99 ± 0.55 % (49.33 %)
+/epoch_13.pth
+Episode [500/1000]:			Accuracy: 54.53 ± 0.79 % (50.67 %)
+Episode [1000/1000]:			Accuracy: 54.47 ± 0.55 % (56.00 %)
+/epoch_14.pth
+Episode [500/1000]:			Accuracy: 55.00 ± 0.79 % (54.67 %)
+Episode [1000/1000]:			Accuracy: 54.97 ± 0.54 % (54.67 %)
+/epoch_15.pth
+Episode [500/1000]:			Accuracy: 54.87 ± 0.78 % (52.00 %)
+Episode [1000/1000]:			Accuracy: 54.98 ± 0.54 % (53.33 %)
+/epoch_16.pth
+Episode [500/1000]:			Accuracy: 54.99 ± 0.77 % (49.33 %)
+Episode [1000/1000]:			Accuracy: 55.06 ± 0.54 % (53.33 %)
+/epoch_17.pth
+Episode [500/1000]:			Accuracy: 55.45 ± 0.78 % (52.00 %)
+Episode [1000/1000]:			Accuracy: 55.35 ± 0.54 % (52.00 %)
+/epoch_18.pth
+Episode [500/1000]:			Accuracy: 55.51 ± 0.77 % (49.33 %)
+Episode [1000/1000]:			Accuracy: 55.55 ± 0.54 % (50.67 %)
+/epoch_19.pth
+Episode [500/1000]:			Accuracy: 55.38 ± 0.79 % (56.00 %)
+Episode [1000/1000]:			Accuracy: 55.37 ± 0.54 % (53.33 %)
+/epoch_20.pth
+Episode [500/1000]:			Accuracy: 55.56 ± 0.79 % (53.33 %)
+Episode [1000/1000]:			Accuracy: 55.53 ± 0.55 % (48.00 %)
+/epoch_21.pth
+Episode [500/1000]:			Accuracy: 55.57 ± 0.77 % (53.33 %)
+Episode [1000/1000]:			Accuracy: 55.57 ± 0.54 % (52.00 %)
+/epoch_22.pth
+Episode [500/1000]:			Accuracy: 55.47 ± 0.78 % (53.33 %)
+Episode [1000/1000]:			Accuracy: 55.55 ± 0.54 % (50.67 %)
+/epoch_23.pth
+Episode [500/1000]:			Accuracy: 55.67 ± 0.79 % (54.67 %)
+Episode [1000/1000]:			Accuracy: 55.65 ± 0.54 % (53.33 %)
+/epoch_24.pth
+Episode [500/1000]:			Accuracy: 55.55 ± 0.78 % (53.33 %)
+Episode [1000/1000]:			Accuracy: 55.53 ± 0.54 % (53.33 %)
+/epoch_25.pth
+Episode [500/1000]:			Accuracy: 55.47 ± 0.78 % (53.33 %)
+Episode [1000/1000]:			Accuracy: 55.41 ± 0.54 % (50.67 %)
+/epoch_26.pth
+Episode [500/1000]:			Accuracy: 55.48 ± 0.79 % (53.33 %)
+Episode [1000/1000]:			Accuracy: 55.49 ± 0.54 % (49.33 %)
+/epoch_27.pth
+Episode [500/1000]:			Accuracy: 55.63 ± 0.76 % (54.67 %)
+Episode [1000/1000]:			Accuracy: 55.47 ± 0.53 % (50.67 %)
+/epoch_28.pth
+Episode [500/1000]:			Accuracy: 55.66 ± 0.77 % (54.67 %)
+Episode [1000/1000]:			Accuracy: 55.66 ± 0.53 % (49.33 %)
+/epoch_29.pth
+Episode [500/1000]:			Accuracy: 55.57 ± 0.78 % (54.67 %)
+Episode [1000/1000]:			Accuracy: 55.52 ± 0.54 % (50.67 %)
+/epoch_30.pth
+Episode [500/1000]:			Accuracy: 55.59 ± 0.77 % (53.33 %)
+Episode [1000/1000]:			Accuracy: 55.58 ± 0.53 % (52.00 %)
